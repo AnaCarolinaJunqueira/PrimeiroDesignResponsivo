@@ -32,7 +32,7 @@ header{
         flex-direction: column;
     }
     h1{
-        font-size: 1.7vw;
+        font-size: 28px;
         font-weight: 400;
         @media (max-width: 770px){
             font-size: 2.8vw;
@@ -64,7 +64,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 1.5vw;
+        font-size: 28px;
         @media (max-width: 770px){
             justify-content: space-evenly;
             font-size: 2.3vw;
@@ -75,5 +75,24 @@ nav{
         a{
             color: white;
         }
+    }
+}
+
+//---------------Main-------------------
+
+.sessaoSobre{
+    height: 60vh;
+    //border: solid 2px red;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    p{
+        border: solid 2px;
+        width: 40vw;
+        font-size: 25px;
+    }
+    img{
+        width: 25vw;
     }
 }

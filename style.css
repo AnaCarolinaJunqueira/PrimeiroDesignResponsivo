@@ -34,7 +34,7 @@ header {
   }
 }
 .boxLogo h1 {
-  font-size: 1.7vw;
+  font-size: 28px;
   font-weight: 400;
 }
 @media (max-width: 770px) {
@@ -75,7 +75,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.5vw;
+  font-size: 28px;
 }
 @media (max-width: 770px) {
   nav ul {
@@ -90,4 +90,20 @@ nav ul {
 }
 nav ul a {
   color: white;
+}
+
+.sessaoSobre {
+  height: 60vh;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sessaoSobre p {
+  border: solid 2px;
+  width: 40vw;
+  font-size: 25px;
+}
+.sessaoSobre img {
+  width: 25vw;
 }/*# sourceMappingURL=style.css.map */
